@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "date": "2022 - AAAA",
+    "ecole": "Haute Ecole d'Informatique HEI",
+    "etude": "Ecosystémes Logiciels",
+    "commentaire": "lorem"
+  },
+  {
+    "id": 2,
+    "date": "2019 - 2020",
+    "ecole": "École digital Sayna",
+    "etude": "Base de l'algorithme et Programmation web",
+    "commentaire": "lorem"
+  },
+  {
+    "id": 3,
+    "date": "2017 - 2020",
+    "ecole": "Université d'Antananarivo",
+    "etude": "Mathématique",
+    "commentaire": "lorem"
+  }
+]
