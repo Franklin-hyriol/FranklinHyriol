@@ -5,6 +5,22 @@ const Container = styled.div`
     height: 100vh;
     overflow-x: hidden;
     position: relative;
+
+    .copyright{
+        position: absolute;
+        bottom: 3vh;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: calc(8px + 0.390625vw);
+        color: ${props => props.theme.text};
+        font-weight: 600;
+        z-index: 3;
+
+        a{
+            color: ${props => props.theme.text};
+            font-weight: 900;
+        }
+    }
 `;
 
 const Background = styled.img`

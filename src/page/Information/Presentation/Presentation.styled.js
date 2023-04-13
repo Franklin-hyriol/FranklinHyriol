@@ -21,21 +21,23 @@ const Name = styled.div`
 
     p:first-child{
         align-self: flex-end;
-        font-size: 0.8rem;
+        font-size: calc(7px + 0.390625vw);
         margin-bottom: 10px;
         font-weight: 600;
         color: ${props => props.theme.textHelloJob};
     }
 
     h2{
-        font-size: 2.4rem;
+        font-size: calc(40px + 0.390625%);
         letter-spacing: 2px;
+        white-space: nowrap;
         font-weight: 900;
         color: ${props => props.theme.nameContent};
     }
 
     p:last-child{
         margin-top: 10px;
+        font-size: calc(12px + 0.390625vw);
         text-align: center;
         color: ${props => props.theme.textHelloJob};
         font-weight: 600;
@@ -43,9 +45,10 @@ const Name = styled.div`
 `;
 
 const Text = styled.div`
-    margin: 0px 20px;
-    font-size: 1.1rem;
+    margin: 0px 30px;
+    font-size: calc(15px + 0.390625vw);
     color: ${props => props.theme.contentText};
+    line-height: 4vh;
 
     span{
         font-size: 1.6rem;
@@ -70,6 +73,7 @@ const Right = styled.div`
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
+        pointer-events: none;
     }
 
     svg{

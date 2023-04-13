@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Navbar from '../../components/Navbar/Navbar';
 import { Container, Wrapper, Content } from './Competence.styled';
+import { AiFillHeart } from 'react-icons/ai';
 
 /* components */
 import HardSkills from './HardSkills/HardSkills';
@@ -27,6 +28,7 @@ function Competence() {
                                 <Difficulte />
                     }
                 </Content>
+                <div className='copyright'>Designed and Developed with <AiFillHeart /> by <a href="/#" target="_blank" rel="noopener noreferrer">Franklin Hyriol</a></div>
             </Wrapper>
         </Container>
     )

@@ -13,3 +13,5 @@ const GlobalStyle = createGlobalStyle`
 `;
 
 export default GlobalStyle;
+
+/*font-size: calc(15px + 0.390625vw);*/

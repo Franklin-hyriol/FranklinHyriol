@@ -9,7 +9,7 @@ const Container = styled.nav`
 `;
 
 const Information = styled.div`
-    margin-top: 15px;
+    margin-top: 20px;
     img{
         width: 70px;
         height: 70px;
@@ -19,7 +19,7 @@ const Information = styled.div`
 
     .name{
         color: ${props => props.theme.nameSidebar};
-        font-size: 0.8rem;
+        font-size: calc(7px + 0.390625vw);
         letter-spacing: 1px;
         font-weight: bold;
         margin-bottom: 10px;
@@ -27,13 +27,13 @@ const Information = styled.div`
 
     .job{
         color: ${props => props.theme.jobSidebar};
-        font-size: 0.8rem;
+        font-size: calc(6px + 0.390625vw);
         font-weight: bold;
     }
 `;
 
 const Navigation = styled.div`
-    margin-top: 80px;
+    margin-top: 13vh;
 `;
 
 const NavItem = styled(NavLink)`
@@ -43,16 +43,16 @@ const NavItem = styled(NavLink)`
     align-items: center;
     color: ${props => props.theme.navItemDisable};
     text-decoration: none;
-    padding: 15px 0;
+    padding: 3vh 0;
     position: relative;
 
     svg{
-        font-size: 2rem;
-        margin-bottom: 8px;
+        font-size: calc(25px + 0.390625vw);
+        margin-bottom: 1.5vh;
     }
 
     span{
-        font-size: 0.8rem;
+        font-size: calc(5px + 0.390625vw);
         font-weight: 600;
     }
 

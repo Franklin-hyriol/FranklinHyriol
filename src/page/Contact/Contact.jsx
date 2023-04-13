@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Navbar from './../../components/Navbar/Navbar';
 import { Container, Wrapper, Content } from './Contact.styled';
+import { AiFillHeart } from 'react-icons/ai';
 
 /*Components*/
 import Email from './Email/Email';
@@ -24,6 +25,7 @@ function Contact() {
                         toggle === 0 ? <Email /> : <ReseauxSociaux />
                     }
                 </Content>
+                <div className='copyright'>Designed and Developed with <AiFillHeart /> by <a href="/#" target="_blank" rel="noopener noreferrer">Franklin Hyriol</a></div>
             </Wrapper>
         </Container>
     )

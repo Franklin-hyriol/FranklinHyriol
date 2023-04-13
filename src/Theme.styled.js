@@ -10,8 +10,8 @@ const dark = {
     sidebarBg: '#0969a0',
     nameSidebar: '#dce1ff',
     jobSidebar: '#1fe1f9',
-    navItemDisable: '#001072',
-    navItemActive: '#000c53',
+    navItemDisable: '#dce1ff',
+    navItemActive: '#1fe1f9',
     navItemActiveBg: '#0786eb',
 
     /*Content*/

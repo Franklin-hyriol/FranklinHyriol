@@ -24,7 +24,7 @@ const Tabs = styled.div`
         flex-basis: 50%;
         position: relative;
         height: 100%;
-        font-size: 1.2rem;
+        font-size: calc(20px + 0.390625vw);
         font-weight: 500;
         color: ${props => props.theme.text};
     }
@@ -62,14 +62,14 @@ const Scolaires = styled.div`
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        font-size: 1.4rem;
+        font-size: calc(18px + 0.390625vw);
     }
 
     .content{
         div:not(:last-child){
             display: flex;
             flex-direction: row;
-            font-size: 1.2rem;
+            font-size: calc(15px + 0.390625vw);
             p:first-child{
                 flex-basis: 35%;
             }
@@ -84,11 +84,11 @@ const Scolaires = styled.div`
         }
 
         div:not(:first-child){
-            margin-top: 20px;
+            margin-top: 3vh;
         }
 
         hr{
-            margin-top: 20px;
+            margin-top: 3vh;
             margin-bottom: 0px;
         }
 
@@ -98,7 +98,7 @@ const Scolaires = styled.div`
             bottom: 50px;
             svg{
                 display: block;
-                font-size: 1.5rem;
+                font-size: calc(30px + 0.390625vw);
                 cursor: pointer;
 
                 &:hover{

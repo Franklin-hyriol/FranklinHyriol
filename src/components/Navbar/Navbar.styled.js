@@ -15,7 +15,7 @@ const Container = styled.nav`
 
 const HomeIcon = styled(Link)`
     color: ${props => props.theme.text};
-    margin-left: 15px;
+    margin-left: 3%;
     padding: 15px;
 
     &:hover{
@@ -62,7 +62,7 @@ const NavLink = styled.div`
 `;
 
 const ThemeSwitch = styled.div`
-    margin-right: 30px;
+    margin-right: 5%;
     width: 50px;
     height: 25px;
     cursor: pointer;
