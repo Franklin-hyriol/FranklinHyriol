@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { NavLink } from "react-router-dom";
 
 const Container = styled.nav`
-    flex-basis: 18%;
+    flex-basis: 15%;
     height: 100%;
     background-color: ${props => props.theme.sidebarBg};
     text-align: center;
@@ -43,7 +43,7 @@ const NavItem = styled(NavLink)`
     align-items: center;
     color: ${props => props.theme.navItemDisable};
     text-decoration: none;
-    padding: 3vh 0;
+    padding: 2.5vh 0;
     position: relative;
 
     svg{

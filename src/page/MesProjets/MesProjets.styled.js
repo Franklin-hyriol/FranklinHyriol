@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const Container = styled.div`
-    flex-basis: 82%;
+    flex-basis: 85%;
     background-color: ${props => props.theme.BgBlur};
     backdrop-filter: blur(15px);
     overflow-y: hidden;
