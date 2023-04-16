@@ -28,7 +28,7 @@ const Name = styled.div`
     }
 
     h2{
-        font-size: calc(40px + 0.390625%);
+        font-size: calc(38px + 0.390625%);
         letter-spacing: 2px;
         white-space: nowrap;
         font-weight: 900;
@@ -46,7 +46,7 @@ const Name = styled.div`
 
 const Text = styled.div`
     margin: 0px 30px;
-    font-size: calc(15px + 0.390625vw);
+    font-size: calc(10px + 0.390625vw);
     color: ${props => props.theme.contentText};
     line-height: 4vh;
 
